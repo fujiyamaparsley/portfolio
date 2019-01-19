@@ -1,0 +1,93 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.l-content {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+
+/* // Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width */
+
+@media screen and (max-width: 767.98px){
+
+
+    .m_article_text_block  {
+      font-family: "游明朝";
+      padding: 5px 0;
+  
+  }
+    .m_article_title  {
+        font-family: "游明朝";
+        padding: 5px 0;
+  
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .m_article_text_block  {
+      font-family: "游明朝";
+      padding: 5px 0;
+  
+  }
+    .m_article_title  {
+        font-family: "游明朝";
+        padding: 5px 0;
+  
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  
+  .m_article_text_block  {
+    font-family: "游明朝";
+    padding: 5px 0;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    height:410px;
+  }
+  
+  
+  .m_article_title  {
+    font-family: "游明朝";
+    padding: 5px 0;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    height:410px;
+  }
+}
+
+@media (min-width: 1200px)  {
+
+  .m_article_text_block  {
+    font-family: "游明朝";
+    padding: 5px 0;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    height:430px;
+  }
+
+
+  .m_article_title  {
+    font-family: "游明朝";
+    padding: 5px 0;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    height:430px;
+  }
+}
